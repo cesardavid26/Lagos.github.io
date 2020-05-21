@@ -3,6 +3,9 @@
 	color: white;
 	font-size: 28px;
 }
+#zam2{
+	font-family: 'Josefin Sans', sans-serif; color: white; font-size: 20px;
+}
 .aa{
 font-color: white;
 }
@@ -135,10 +138,13 @@ p{
 	color: white;
 
 }
-.carousel-caption{
-	
-    
-
+@media only screen and (max-width: 600px){
+.carousel-item{
+    height: 400px;
+} 
+.carousel-item img{
+    height: 400px;
+}
 }
 
 footer{
