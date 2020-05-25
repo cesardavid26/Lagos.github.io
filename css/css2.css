@@ -4,7 +4,7 @@
 	font-size: 28px;
 }
 #zam2{
-	font-family: 'Josefin Sans', sans-serif; color: white; font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif; color: white; font-size: 18px;
 }
 .aa{
 font-color: white;
@@ -49,6 +49,7 @@ img{
 #usp, #hacer{
 	color: white;
 	text-align: center;
+	font-size: 20px;
 }
 #usp1, #usp2, #usp3{
 	color: white;
@@ -59,9 +60,14 @@ img{
 .nav-item{
 	color: white;
 }
-#servi, #servi2, #servi3{
-	height: 60%;
+#servi,#servi2, #servi3{
+	width: 90%;
+	height: 70%;
 	
+}
+.tcarr{
+	font-family: 'Courgette', cursive;
+	font-size: 50px;
 }
 #servi:hover{
 	background-image: url(imagenes/oli.jpeg); 
@@ -69,7 +75,14 @@ img{
 	transition:all .5s ease-in-out;
 	 
 } 
-#servi2:hover, #servi3:hover{
+#logo{
+	width: 180px;
+	height: 60px;
+	border-radius: 10px;
+	box-shadow: 5px 5px #1f1e1e;
+
+}
+#servi:hover, #servi2:hover, #servi3:hover{
 	filter: opacity(.5);
 	-webkit-transform:scale(1.1);
 	transform:scale(1.1);
@@ -81,8 +94,8 @@ img{
 }
 #usp1:hover, #usp2:hover, #usp3:hover{
 
-	-webkit-transform:scale(1.1);
-	transform:scale(1.1);
+	-webkit-transform:scale(1.0);
+	transform:scale(1.0);
 	transition:all .5s ease-in-out;
 	
 
@@ -128,8 +141,10 @@ h5{
 }
 #card, #card2, #card3{
 	background-color: rgba(0, 0, 0, 0.5);
-    top: 40%;
-    height: 35%;
+    height: 23%;
+    width: 55%;
+    align-content: center;
+    align-items: center;
 }
 
 p{
@@ -138,12 +153,23 @@ p{
 	color: white;
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px )  {
 .carousel-item{
     height: 400px;
 } 
 .carousel-item img{
     height: 400px;
+}
+.tcarr{
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+}
+#card, #card2, #card3{
+	background-color: rgba(0, 0, 0, 0.5);
+    height: 10%;
+    width: 20%;
+    align-content: center;
+    align-items: center;
 }
 }
 
