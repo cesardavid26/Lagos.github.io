@@ -216,9 +216,6 @@ h2{
     align-content: center;
     float: center;
 }
-
-}
-
 footer{
 	bottom: 0;
 	color: white;
@@ -228,3 +225,6 @@ footer{
 	position: fixed;
 	
 }
+}
+
+
