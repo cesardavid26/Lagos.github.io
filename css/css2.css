@@ -112,8 +112,9 @@ img{
 h2{
 	font-family: 'Righteous', cursive;
 	text-align: center;
+
 	color: white;
-	font-size: 35px;
+	font-size: 30px;
 }
  h4{
  	font-family: 'Righteous', cursive;
@@ -142,15 +143,42 @@ h5{
 #card, #card2, #card3{
 	background-color: rgba(0, 0, 0, 0.5);
     height: 23%;
-    width: 55%;
+    width: 65%;
     align-content: center;
     align-items: center;
+    position: absolute;
 }
 
+.carousel-caption
+{
+	background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:470px;
+    height: 15%;
+    width: 70%;
+    color: #FFF;
+
+    align-content: center;
+    float: center;
+}
 p{
 	font-family: 'Rokkitt', serif;
 	font-size: 20px;
 	color: white;
+
+}
+#tcarr{
+	font-family: 'Courgette', cursive;
+	font-size: 45px;
+}
+.card-img-top{
+	height: 50%;
+}
+.card-title{
+	color: black;
+	font-size: 30px;
+}
+.carousel-caption{
 
 }
 @media only screen and (max-width: 600px )  {
@@ -160,17 +188,35 @@ p{
 .carousel-item img{
     height: 400px;
 }
-.tcarr{
+
+h2{
+	float: center;
+	text-align: center;
+	align-content: center;
+}
+#ser{
+	align-items: center;
+	float: center;
+	text-align: center;
+	align-content: center;
+}
+#tcarr{
 	font-family: 'Courgette', cursive;
 	font-size: 25px;
 }
-#card, #card2, #card3{
+.carousel-caption
+{
 	background-color: rgba(0, 0, 0, 0.5);
-    height: 10%;
+    position: absolute;
+    top:470px;
+    height: 15%;
     width: 20%;
+    color: #FFF;
+
     align-content: center;
-    align-items: center;
+    float: center;
 }
+
 }
 
 footer{
