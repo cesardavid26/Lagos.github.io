@@ -195,10 +195,9 @@ footer{
 }
 
 .carousel-caption{
-	position: absolute;
-	position: fixed;
+	
 	float: center;
-	top: 220px;
+	top: 200px;
 
 }
 
@@ -210,7 +209,7 @@ footer{
 }
 #tcarr{
 	font-family: 'Courgette', cursive;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 
