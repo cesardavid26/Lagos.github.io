@@ -155,7 +155,7 @@ h5{
     height: 15%;
     width: 70%;
     color: #FFF;
-
+    
     align-content: center;
     float: center;
 }
@@ -186,7 +186,7 @@ footer{
 	font-size: 30px;
 }
 
-@media only screen and (max-width: 600px )  {
+@media only screen and (max-width: 560px )  {
 .carousel-item{
     height: 400px;
 } 
@@ -194,11 +194,14 @@ footer{
     height: 400px;
 }
 
-h2{
+.carousel-caption{
+	position: absolute;
+	position: fixed;
 	float: center;
-	text-align: center;
-	align-content: center;
+	top: 300px;
+
 }
+
 #ser{
 	align-items: center;
 	float: center;
@@ -207,7 +210,7 @@ h2{
 }
 #tcarr{
 	font-family: 'Courgette', cursive;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 
